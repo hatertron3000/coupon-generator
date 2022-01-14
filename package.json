@@ -1,0 +1,18 @@
+{
+  "name": "coupon-generator",
+  "version": "1.0.0",
+  "description": "Utility scripts to generate coupon codes in BigCommerce.",
+  "main": "generate-codes.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "csv": "node generate-csv.js",
+    "start": "node generate-coupons.js"
+  },
+  "author": "Patrick Puente",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "node-bigcommerce": "^4.1.0"
+  }
+}
