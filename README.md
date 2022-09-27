@@ -23,6 +23,7 @@ npm i
 | API_TOKEN            | BigCommerce API token                                         |
 | QUANTITY             | The number of coupons to generate                             |
 | CODE_LENGTH          | The desired character length of coupon codes (min: 6 max: 50) |
+| PROMOTION_ID         | The promotion_id to use for the codes                         |
 
 ## Usage
 
